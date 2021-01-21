@@ -477,6 +477,8 @@ img {
 .clients-item {
   display: block;
   margin-right: 30px;
+  width: 170px;
+  height: 90px;
 
   transition-property: fill;
   transition-duration: 250ms;
@@ -1104,7 +1106,8 @@ textarea {
   letter-spacing: 0.06em;
 
   display: block;
-  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 5px;
   margin-left: 124px;
   border-radius: 4px;
