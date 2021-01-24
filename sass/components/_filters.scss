@@ -6,6 +6,8 @@
   line-height: 1.63;
 
   display: inline-block;
+  width: auto;
+  height: 38px;
   border-radius: 4px;
   padding: 6px 22px;
   border: 1px solid transparent;
@@ -32,6 +34,12 @@
 .filter.secondary {
   color: $titleTextColor;
   background-color: $secondaryBgColor;
+
+  &:hover,
+  &:focus {
+    color: $primaryWhiteColor;
+    background-color: $accentColor;
+  }
 }
 
 .portfolio {

@@ -1,6 +1,7 @@
 @import './utils/variables';
+@import './base/normalize';
 @import './utils/placeholders';
-@import './components/page-header';
+@import './layout/page-header';
 @import './components/logo';
 @import './components/hero';
 @import './components/buttons';
@@ -9,7 +10,10 @@
 @import './components/work-list';
 @import './components/team';
 @import './components/clients';
-@import './components/footer';
+@import './components/filters';
+@import './components/cards';
+@import './components/card-overlay';
+@import './layout/footer';
 @import './components/modal';
-@import './components/form';
+@import './layout/form';
 @import './components/checkbox';
