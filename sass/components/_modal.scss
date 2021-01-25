@@ -7,7 +7,7 @@
   background-color: rgba(0, 0, 0, 0.2);
 
   opacity: 1;
-  transition: opacity 250ms $timingFunction;
+  transition: opacity $transitionDuration $timingFunction;
 }
 
 .backdrop.is-hidden {
@@ -31,5 +31,5 @@
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
 
-  transition: transform 250ms $timingFunction;
+  transition: transform $transitionDuration $timingFunction;
 }

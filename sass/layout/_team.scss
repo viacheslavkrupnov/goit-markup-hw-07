@@ -10,9 +10,9 @@
 
   .title {
     color: $titleTextColor;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
+    font-weight: $fontWeightMedium;
+    font-size: $fontSizeMedium;
+    line-height: $lineHeightBig;
 
     margin-top: 0;
     margin-bottom: 10px;
@@ -20,9 +20,9 @@
 
   .profession {
     color: $primaryTextColor;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.19;
+    font-weight: $fontWeightRegular;
+    font-size: $fontSizeMedium;
+    line-height: $lineHeightBig;
     margin: 0;
   }
 }

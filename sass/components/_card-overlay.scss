@@ -12,7 +12,7 @@
 
     transform: translateY(100%);
     transition-property: background-color, transform;
-    transition-duration: 250ms;
+    transition-duration: $transitionDuration;
     transition-timing-function: $timingFunction;
   }
 }
@@ -36,7 +36,7 @@
   opacity: 1;
 
   transition-property: transform;
-  transition-duration: 250ms;
+  transition-duration: $transitionDuration;
   transition-timing-function: $timingFunction;
 }
 
@@ -60,8 +60,8 @@
   box-sizing: border-box;
   margin-top: 0;
   margin-bottom: 0;
-  font-weight: 400;
-  font-size: 18px;
+  font-weight: $fontWeightRegular;
+  font-size: $fontSizeBig;
   line-height: 1, 55;
   color: $primaryWhiteColor;
 }

@@ -31,9 +31,9 @@
 
 .overlay-text {
   margin: 0;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  font-weight: $fontWeightBold;
+  font-size: $fontSizeSmall;
+  line-height: $lineHeightSmall;
   text-align: center;
   color: $primaryWhiteColor;
 }

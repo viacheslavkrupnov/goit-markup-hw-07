@@ -18,9 +18,9 @@
   margin-bottom: 50px;
   text-align: center;
   color: $titleTextColor;
-  font-weight: 700;
+  font-weight: $fontWeightBold;
   font-size: 36px;
-  line-height: 1.16;
+  line-height: $lineHeightMedium;
 }
 
 .section-title.team {

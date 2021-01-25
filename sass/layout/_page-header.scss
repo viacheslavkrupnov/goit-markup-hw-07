@@ -1,6 +1,6 @@
 .page-header {
   background-color: $primaryWhiteColor;
-  border-bottom: 1px solid #ececec;
+  border-bottom: $border #ececec;
 
   .container {
     display: flex;
@@ -34,14 +34,14 @@
     padding-bottom: 32px;
 
     color: $titleTextColor;
-    font-weight: 500;
-    line-height: 1.14;
+    font-weight: $fontWeightMedium;
+    line-height: $lineHeightSmall;
     text-decoration: none;
 
     position: relative;
 
     transition-property: color;
-    transition-duration: 250ms;
+    transition-duration: $transitionDuration;
     transition-timing-function: $timingFunction;
 
     &:hover,
@@ -93,12 +93,12 @@
     padding-bottom: 32px;
 
     color: $primaryTextColor;
-    font-weight: 500;
-    line-height: 1.14;
+    font-weight: $fontWeightMedium;
+    line-height: $lineHeightSmall;
     text-decoration: none;
 
     transition-property: color, fill;
-    transition-duration: 250ms;
+    transition-duration: $transitionDuration;
     transition-timing-function: $timingFunction;
 
     &:hover,
@@ -112,7 +112,7 @@
   margin-right: 10px;
 
   transition-property: fill;
-  transition-duration: 250ms;
+  transition-duration: $transitionDuration;
   transition-timing-function: $timingFunction;
 
   &:hover,

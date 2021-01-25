@@ -1,10 +1,10 @@
 .button {
   color: $titleTextColor;
   background-color: $primaryWhiteColor;
-  font-weight: 700;
-  font-size: 16px;
+  font-weight: $fontWeightBold;
+  font-size: $fontSizeMedium;
   line-height: 1.87;
-  letter-spacing: 0.06em;
+  letter-spacing: $letterSpacingSecondary;
   text-decoration: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
@@ -24,22 +24,22 @@
   height: 50px;
   color: $titleTextColor;
   background-color: $primaryWhiteColor;
-  font-weight: 700;
-  font-size: 16px;
+  font-weight: $fontWeightBold;
+  font-size: $fontSizeMedium;
   line-height: 1.87;
-  letter-spacing: 0.06em;
+  letter-spacing: $letterSpacingSecondary;
 
   display: flex;
   justify-content: center;
   border-radius: 4px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border: 1px solid transparent;
+  border: $border transparent;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
   transition-property: background-color, color, box-shadow;
-  transition-duration: 250ms;
+  transition-duration: $transitionDuration;
   transition-timing-function: $timingFunction;
 }
 
@@ -60,7 +60,7 @@
   height: 30px;
   border-radius: 50%;
   outline: transparent;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: $border rgba(0, 0, 0, 0.1);
   background-color: $primaryWhiteColor;
   display: flex;
   justify-content: center;
@@ -68,7 +68,7 @@
   cursor: pointer;
 
   transition-property: color;
-  transition-duration: 250ms;
+  transition-duration: $transitionDuration;
   transition-timing-function: $timingFunction;
 
   &:hover {
@@ -81,10 +81,10 @@
   height: 50px;
   color: $titleTextColor;
   background-color: $primaryWhiteColor;
-  font-weight: 700;
-  font-size: 16px;
+  font-weight: $fontWeightBold;
+  font-size: $fontSizeMedium;
   line-height: 1.87;
-  letter-spacing: 0.06em;
+  letter-spacing: $letterSpacingSecondary;
 
   display: block;
   margin-bottom: 5px;
@@ -93,12 +93,12 @@
   border-radius: 4px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border: 1px solid transparent;
+  border: $border transparent;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
   transition-property: background-color, color, box-shadow;
-  transition-duration: 250ms;
+  transition-duration: $transitionDuration;
   transition-timing-function: $timingFunction;
 }
 

@@ -33,6 +33,10 @@
   border-radius: 2px;
 }
 
+.checkbox:focus ~ .icon::after {
+  border-color: $accentColor;
+}
+
 .checkbox:checked + .icon::after {
   border-color: $accentColor;
   background-color: $accentColor;
