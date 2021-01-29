@@ -1024,6 +1024,14 @@ footer {
           align-items: center;
 }
 
+.social-item .bottom {
+  margin-right: 5px;
+}
+
+.social-item .bottom:nth-child(4n) {
+  margin-right: 0;
+}
+
 .footer-subscription {
   display: -webkit-box;
   display: -ms-flexbox;
